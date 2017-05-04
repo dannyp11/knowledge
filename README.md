@@ -1,3 +1,7 @@
+## Inspired & forked from Cameron's repo
+
+
+## Below is the original author's README
 # Knowledge
 This repository contains notes (mostly about computer science/engineering) that I have consolidated from my classes in school, personal projects, & work. It mainly serves as a personal reference for myself, but others are welcome to read all the nonsense :)
 

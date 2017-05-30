@@ -1,6 +1,6 @@
-#Vim Shortcuts
+# Vim Shortcuts
 
-####Two good visual images:
+#### Two good visual images:
 * https://cdn.shopify.com/s/files/1/0165/4168/files/preview.png
 * http://www.viemu.com/vi-vim-cheat-sheet.gif
 
@@ -23,8 +23,8 @@ e|Move forward to next word, with cursor on <span>last</span> character (use E t
 ge|Move backwards to next word, with cursor on <span>last</span> character (use gE to jump by whitespace only) 
 (|Move to beginning of previous sentence. Use ) to go to next sentence 
 { |    	 	Move to beginning of previous paragraph. Use } to go to next paragraph 
-+ |    		Move forward to the first character on the next line
--  |       Move backwards to the first character on the previous line
+\+ |    		Move forward to the first character on the next line
+\-  |       Move backwards to the first character on the previous line
 ``<C>``+u|   	Move up by half a page 
 ``<C>``+d |  	Move down by half a page 
 H|         Move cursor to <span>header</span> (top) line of current visible window
@@ -37,14 +37,16 @@ ma    |   	Set a marker at cursor position to come back to later. a can be any c
 'a     |   Move cursor to the first character of the line marked with ma 
 %       |  Move cursor to next brace, bracket or comment paired to the current cursor location 
 
+
 Search | Desc 
 --- | ---
-*     |      	Search forward for word under cursor                                                                                                      
-#       |     	Search backwards for word under cursor 
+\*     |      	Search forward for word under cursor                                                                                                      
+\#       |     	Search backwards for word under cursor 
 /word   |  	Search forward for word. Accepts regular expressions to search 
 ?word   | 	Search backwards for word. Accepts regular expressions to search
 n       |     	Repeat the last / or ? command
 N       |    	Repeat the last / or ? command in the opposite direction
+
 
 Deletion | Desc 
 --- | ---
@@ -73,6 +75,7 @@ O		Insert line above current lien and enter insert mode
 cm	|	Delete (change) the character or word (w) in motion m, then enter insert mode
 cc	|	Delete current line and enter insert mode (unlike dd which leaves you in normal mode)
 C	|	Delete (change) from cursor to end of line, enter insert mode
+
 
 Visual Mode | Desc
 --- | ---

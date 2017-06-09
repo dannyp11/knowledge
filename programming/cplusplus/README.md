@@ -65,6 +65,14 @@ Some of my personal notes on the C++ language - regarding features, coding style
 * remember that all instances of a class share a single static member of a class
 * encapsulation is the term used for the act of hiding the implementation details of an object from its user
 * a forward declaration is a declaration of an identifier (denoting an entity such as a type, a variable, a constant, or a function) for which the programmer has not yet given a complete definition.
+* recommended macro format (so that you can call if(x) MY_MACRO(); else MY_MACRO(); ):
+```
+        #define MY_MACRO() \
+        do { \
+        blah1 \
+        blah2 \
+        } while(0)
+```
 
 ## Miscellaneous
 * use the c++ linter that enforces the Google C++ style code can be found [here](https://raw.githubusercontent.com/google/styleguide/gh-pages/cpplint/cpplint.py)
